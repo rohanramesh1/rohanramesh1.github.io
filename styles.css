@@ -90,8 +90,21 @@ footer {
 }
 
 /* Skills Section */
-.skill-section {
-    margin: 20px 0;
+.skill-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px; /* Adjusted width for better balance */
+    text-align: center;
 }
 
 .skills-container {
@@ -105,7 +118,8 @@ footer {
     background-color: #f4f4f4;
     border-radius: 10px;
     overflow: hidden;
-    width: 45%; /* Two progress bars next to each other */
+    width: 100%; /* Adjusted width for better balance */
+    margin: 10px 0; /* Added vertical space between bars */
 }
 
 .skill-level {
@@ -150,6 +164,10 @@ footer {
 
     section {
         padding: 20px 10px;
+    }
+
+    .skill-card {
+        width: 100%; /* Full width for mobile */
     }
 
     .skills-container {
