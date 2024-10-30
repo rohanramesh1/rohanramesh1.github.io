@@ -9,7 +9,7 @@ body {
 header {
     background: linear-gradient(to right, #000, #333);
     color: #fff;
-    padding: 30px 0; /* Increased padding for more space */
+    padding: 40px 0 20px; /* Increased padding above, kept bottom padding same */
     text-align: center;
     position: fixed;
     width: 100%;
@@ -38,6 +38,7 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center; /* Align items vertically center */
+    height: 100%;
 }
 
 nav ul li {
@@ -51,7 +52,7 @@ nav ul li a {
 }
 
 main {
-    padding-top: 160px;
+    padding-top: 180px; /* Adjusted padding for better visibility on mobile */
     padding: 20px;
     text-align: center;
 }
@@ -65,8 +66,8 @@ section {
 }
 
 section#home {
-    padding-top: 100px; /* Extra padding for the home section */
-    padding-bottom: 40px; /* Ensure bottom padding is consistent */
+    padding-top: 100px;
+    padding-bottom: 40px;
 }
 
 footer {
@@ -90,13 +91,13 @@ footer {
     padding: 0;
     margin: 0 auto;
     max-width: 600px;
-    text-align: center; /* Center text */
+    text-align: center;
 }
 
 .skills-list li {
     display: flex;
     align-items: center;
-    justify-content: center; /* Center items */
+    justify-content: center;
 }
 
 .skills-list li::before {
@@ -122,9 +123,13 @@ footer {
 
 /* Mobile responsive styles */
 @media (max-width: 768px) {
+    header {
+        padding: 15px 0; /* Adjust padding for mobile */
+    }
+
     nav ul {
         flex-direction: column;
-        height: auto; /* Adjust height for column layout */
+        height: auto;
     }
 
     nav ul li {
@@ -132,6 +137,11 @@ footer {
     }
 
     main {
-        padding: 160px 10px 20px 10px;
+        padding-top: 200px; /* Increased padding for mobile */
+        padding: 10px;
+    }
+
+    section {
+        padding: 20px 10px; /* Adjust padding for mobile */
     }
 }
