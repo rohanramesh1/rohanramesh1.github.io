@@ -9,13 +9,12 @@ body {
 header {
     background: linear-gradient(to right, #000, #333);
     color: #fff;
-    padding: 20px 0; /* Increased padding for more space */
+    padding: 10px 0;
     text-align: center;
     position: fixed;
     width: 100%;
     top: 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    z-index: 1000; /* Ensure the header stays on top */
 }
 
 header h1 {
@@ -50,7 +49,7 @@ nav ul li a {
 }
 
 main {
-    padding-top: 150px; /* Increased padding to avoid overlap */
+    padding-top: 120px;
     padding: 20px;
     text-align: center;
 }
@@ -61,19 +60,6 @@ section {
     border-radius: 10px;
     background: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-section#home {
-    background: #ccc; /* Lighter background for better contrast */
-    padding: 40px 20px; /* Increased padding */
-}
-
-section#home h2 {
-    color: #333;
-}
-
-section#home p {
-    color: #333;
 }
 
 footer {
@@ -88,9 +74,9 @@ footer {
 
 /* Profile Picture Styling */
 .profile-pic {
-    border-radius: 50%; /* Makes the image rounded */
-    border: 2px solid #333; /* Optional: adds a border around the image */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow for depth */
+    border-radius: 50%;
+    border: 2px solid #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Animations */
@@ -116,6 +102,6 @@ footer {
     }
 
     main {
-        padding: 130px 10px 20px 10px; /* Adjusted padding for mobile */
+        padding: 100px 10px 20px 10px;
     }
 }
