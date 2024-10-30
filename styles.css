@@ -64,3 +64,18 @@ footer {
         opacity: 1;
     }
 }
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
