@@ -70,7 +70,7 @@ section {
 }
 
 section#home {
-    padding-top: 100px;
+    padding-top: 100px; /* Ensure proper padding for the home section */
     padding-bottom: 40px;
 }
 
@@ -115,10 +115,10 @@ footer {
 }
 
 .skill-bar {
-    background-color: #ccc; /* Changed background color for remaining part */
+    background-color: #f4f4f4;
     border-radius: 10px;
     overflow: hidden;
-    width: 100%;
+    width: 45%; /* Two progress bars next to each other */
     margin: 10px 0;
 }
 
@@ -158,7 +158,7 @@ footer {
     }
 
     main {
-        padding-top: 220px;
+        padding-top: 220px; /* Ensure the home section is properly separated */
         padding: 10px;
     }
 
