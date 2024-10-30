@@ -82,13 +82,15 @@ footer {
 .skills-list {
     list-style: none;
     padding: 0;
-    margin: 0 auto; /* Center the list */
-    max-width: 600px; /* Set a max-width */
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center; /* Center text */
 }
 
 .skills-list li {
     display: flex;
     align-items: center;
+    justify-content: center; /* Center items */
 }
 
 .skills-list li::before {
@@ -97,7 +99,6 @@ footer {
     font-weight: bold;
     display: inline-block;
     width: 1em;
-    margin-left: -1em; /* Align bullet closer to the text */
     margin-right: 0.5em;
 }
 
