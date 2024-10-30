@@ -63,10 +63,6 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-section#home {
-    margin-top: 40px; /* Added margin to top of first section */
-}
-
 footer {
     background: #000;
     color: #fff;
