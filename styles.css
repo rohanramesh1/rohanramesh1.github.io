@@ -57,7 +57,7 @@ main {
 
 section {
     margin: 20px 0;
-    padding: 20px;
+    padding: 80px 20px 20px; /* Added top padding to avoid overlap */
     border-radius: 10px;
     background: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
