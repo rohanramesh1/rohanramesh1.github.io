@@ -32,7 +32,7 @@ header h2 {
 }
 
 nav {
-    margin-top: 20px; /* Increased space above navigation buttons */
+    margin-top: 20px;
 }
 
 nav ul {
@@ -115,7 +115,7 @@ footer {
 }
 
 .skill-bar {
-    background-color: #f4f4f4;
+    background-color: #ccc; /* Changed background color for remaining part */
     border-radius: 10px;
     overflow: hidden;
     width: 100%;
@@ -158,7 +158,7 @@ footer {
     }
 
     main {
-        padding-top: 220px; /* Adjust padding for mobile */
+        padding-top: 220px;
         padding: 10px;
     }
 
