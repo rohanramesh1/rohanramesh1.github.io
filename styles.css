@@ -9,7 +9,7 @@ body {
 header {
     background: linear-gradient(to right, #000, #333);
     color: #fff;
-    padding: 10px 0;
+    padding: 20px 0; /* Increased padding for more space */
     text-align: center;
     position: fixed;
     width: 100%;
@@ -50,7 +50,7 @@ nav ul li a {
 }
 
 main {
-    padding-top: 140px; /* Increased padding to avoid overlap */
+    padding-top: 160px; /* Increased padding to avoid overlap */
     padding: 20px;
     text-align: center;
 }
@@ -102,6 +102,6 @@ footer {
     }
 
     main {
-        padding: 160px 10px 20px 10px; /* Increased top padding for mobile */
+        padding: 160px 10px 20px 10px; /* Adjusted top padding for mobile */
     }
 }
