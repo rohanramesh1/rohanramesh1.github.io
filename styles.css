@@ -9,13 +9,13 @@ body {
 header {
     background: linear-gradient(to right, #000, #333);
     color: #fff;
-    padding: 20px 0; /* Increased padding for more space */
+    padding: 20px 0;
     text-align: center;
     position: fixed;
     width: 100%;
     top: 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    z-index: 1000; /* Ensure the header stays on top */
+    z-index: 1000;
 }
 
 header h1 {
@@ -50,7 +50,7 @@ nav ul li a {
 }
 
 main {
-    padding-top: 160px; /* Increased padding to avoid overlap */
+    padding-top: 160px;
     padding: 20px;
     text-align: center;
 }
@@ -63,16 +63,19 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+section#home {
+    margin-top: 40px; /* Added margin to top of first section */
+}
+
 footer {
     background: #000;
     color: #fff;
     text-align: center;
-    padding: 20px 0; /* Increased padding */
-    position: relative; /* Changed to relative */
+    padding: 20px 0;
+    position: relative;
     width: 100%;
 }
 
-/* Profile Picture Styling */
 .profile-pic {
     border-radius: 50%;
     border: 2px solid #333;
@@ -102,6 +105,6 @@ footer {
     }
 
     main {
-        padding: 160px 10px 20px 10px; /* Adjusted top padding for mobile */
+        padding: 160px 10px 20px 10px;
     }
 }
