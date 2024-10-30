@@ -70,7 +70,7 @@ section {
 }
 
 section#home {
-    padding-top: 100px; /* Ensure proper padding for the home section */
+    padding-top: 140px; /* Increased padding for home section */
     padding-bottom: 40px;
 }
 
