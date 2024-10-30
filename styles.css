@@ -15,6 +15,7 @@ header {
     width: 100%;
     top: 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Ensure the header stays on top */
 }
 
 header h1 {
@@ -49,7 +50,7 @@ nav ul li a {
 }
 
 main {
-    padding-top: 120px;
+    padding-top: 140px; /* Increased padding to avoid overlap */
     padding: 20px;
     text-align: center;
 }
@@ -66,10 +67,9 @@ footer {
     background: #000;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
-    position: fixed;
+    padding: 20px 0; /* Increased padding */
+    position: relative; /* Changed to relative */
     width: 100%;
-    bottom: 0;
 }
 
 /* Profile Picture Styling */
@@ -102,6 +102,6 @@ footer {
     }
 
     main {
-        padding: 100px 10px 20px 10px;
+        padding: 160px 10px 20px 10px; /* Increased top padding for mobile */
     }
 }
