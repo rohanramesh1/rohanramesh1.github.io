@@ -37,6 +37,8 @@ nav ul {
     margin: 0;
     display: flex;
     justify-content: center;
+    align-items: center; /* Align items vertically center */
+    height: 100%; /* Ensure full height */
 }
 
 nav ul li {
@@ -122,6 +124,7 @@ footer {
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
+        height: auto; /* Adjust height for column layout */
     }
 
     nav ul li {
