@@ -4,9 +4,8 @@ document.addEventListener('DOMContentLoaded', () => {
         link.addEventListener('click', (e) => {
             e.preventDefault();
             const targetSection = document.querySelector(link.getAttribute('href'));
-            const offsetTop = targetSection.offsetTop - 160; // Adjust this value to match your header height
             window.scrollTo({
-                top: offsetTop,
+                top: targetSection.offsetTop - 140, // Adjusted offset to match header height
                 behavior: 'smooth'
             });
         });
