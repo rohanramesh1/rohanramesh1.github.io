@@ -9,7 +9,7 @@ body {
 header {
     background: linear-gradient(to right, #000, #333);
     color: #fff;
-    padding: 20px 0 20px; /* Adjusted padding to keep bottom padding same */
+    padding: 40px 0 20px;
     text-align: center;
     position: fixed;
     width: 100%;
@@ -32,7 +32,7 @@ header h2 {
 }
 
 nav {
-    margin-top: 20px; /* Added margin to increase space above the buttons */
+    margin-top: 20px;
 }
 
 nav ul {
@@ -41,7 +41,7 @@ nav ul {
     margin: 0;
     display: flex;
     justify-content: center;
-    align-items: center; /* Align items vertically center */
+    align-items: center;
     height: 100%;
 }
 
@@ -56,7 +56,7 @@ nav ul li a {
 }
 
 main {
-    padding-top: 180px; /* Adjusted padding for better visibility on mobile */
+    padding-top: 180px;
     padding: 20px;
     text-align: center;
 }
@@ -90,27 +90,21 @@ footer {
 }
 
 /* Skills Section */
-.skills-list {
-    list-style: none;
-    padding: 0;
-    margin: 0 auto;
-    max-width: 600px;
-    text-align: center;
-}
-
-.skills-list li {
+.skill-cards {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
+    gap: 20px;
 }
 
-.skills-list li::before {
-    content: "•";
-    color: #333;
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-right: 0.5em;
+.skill-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 150px;
+    text-align: center;
 }
 
 /* Animations */
@@ -128,7 +122,7 @@ footer {
 /* Mobile responsive styles */
 @media (max-width: 768px) {
     header {
-        padding: 15px 0; /* Adjust padding for mobile */
+        padding: 15px 0;
     }
 
     nav ul {
@@ -141,11 +135,11 @@ footer {
     }
 
     main {
-        padding-top: 200px; /* Increased padding for mobile */
+        padding-top: 200px;
         padding: 10px;
     }
 
     section {
-        padding: 20px 10px; /* Adjust padding for mobile */
+        padding: 20px 10px;
     }
 }
