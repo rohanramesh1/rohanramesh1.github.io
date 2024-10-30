@@ -37,6 +37,8 @@ nav ul {
     margin: 0;
     display: flex;
     justify-content: center;
+    align-items: center; /* Align items vertically center */
+    height: 100%; /* Ensure full height */
 }
 
 nav ul li {
@@ -57,14 +59,14 @@ main {
 
 section {
     margin: 20px 0;
-    padding: 40px 20px; /* Adjusted padding to ensure equal space */
+    padding: 80px 20px 20px;
     border-radius: 10px;
     background: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 section#home {
-    padding-top: 60px; /* Added padding to top of home section */
+    padding-top: 140px; /* Extra padding to separate from header */
 }
 
 footer {
@@ -122,6 +124,7 @@ footer {
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
+        height: auto; /* Adjust height for column layout */
     }
 
     nav ul li {
