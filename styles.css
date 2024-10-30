@@ -34,7 +34,7 @@ nav ul li a {
 }
 
 main {
-    padding-top: 60px;
+    padding-top: 80px; /* Increased padding to avoid overlap */
     padding: 20px;
     text-align: center;
 }
@@ -76,6 +76,6 @@ footer {
     }
 
     main {
-        padding: 10px;
+        padding: 60px 10px 20px 10px; /* Adjusted padding for mobile */
     }
 }
