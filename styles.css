@@ -9,7 +9,7 @@ body {
 header {
     background: linear-gradient(to right, #000, #333);
     color: #fff;
-    padding: 40px 0 20px; /* Increased padding above, kept bottom padding same */
+    padding: 20px 0 20px; /* Adjusted padding to keep bottom padding same */
     text-align: center;
     position: fixed;
     width: 100%;
@@ -29,6 +29,10 @@ header h2 {
     font-size: 1.2rem;
     font-weight: normal;
     color: #ddd;
+}
+
+nav {
+    margin-top: 20px; /* Added margin to increase space above the buttons */
 }
 
 nav ul {
