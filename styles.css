@@ -32,7 +32,7 @@ header h2 {
 }
 
 nav {
-    margin-top: 20px;
+    margin-top: 20px; /* Increase space above navigation buttons */
 }
 
 nav ul {
@@ -56,7 +56,7 @@ nav ul li a {
 }
 
 main {
-    padding-top: 200px; /* Increased padding for better gap above home section */
+    padding-top: 240px; /* Increased padding for better gap above home section */
     padding: 20px;
     text-align: center;
 }
@@ -158,7 +158,7 @@ footer {
     }
 
     main {
-        padding-top: 220px; /* Ensure the home section is properly separated */
+        padding-top: 260px; /* Ensure the home section is properly separated */
         padding: 10px;
     }
 
