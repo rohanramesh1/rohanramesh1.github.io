@@ -57,14 +57,14 @@ main {
 
 section {
     margin: 20px 0;
-    padding: 40px 20px; /* Adjusted padding to ensure equal space */
+    padding: 80px 20px 20px;
     border-radius: 10px;
     background: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 section#home {
-    padding-top: 60px; /* Added padding to top of home section */
+    padding-top: 140px; /* Increased padding to separate from the header */
 }
 
 footer {
