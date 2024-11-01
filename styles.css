@@ -124,39 +124,26 @@ footer {
 
 .skills-container {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 
 .skill-bar {
-    background: #eee;
+    background-color: #f4f4f4;
     border-radius: 10px;
     overflow: hidden;
-    position: relative;
-    height: 24px;
+    width: 100%;
+    margin: 10px 0;
 }
 
 .skill-level {
-    background: #4CAF50;
-    height: 100%;
-    line-height: 24px;
+    background-color: #333;
     color: #fff;
-    text-align: center;
+    padding: 10px;
+    border-radius: 10px 0 0 10px;
+    text-align: left;
 }
-
-.skill-level[data-skill="Python"] { width: 80%; }
-.skill-level[data-skill="C"] { width: 60%; }
-.skill-level[data-skill="C++"] { width: 65%; }
-.skill-level[data-skill="Java"] { width: 75%; }
-.skill-level[data-skill="AutoCAD"] { width: 95%; }
-.skill-level[data-skill="3D Experience"] { width: 85%; }
-.skill-level[data-skill="Problem-solving"] { width: 90%; }
-.skill-level[data-skill="Teamwork"] { width: 80%; }
-.skill-level[data-skill="Leadership"] { width: 85%; }
-.skill-level[data-skill="French"] { width: 30%; }
-.skill-level[data-skill="Arabic"] { width: 10%; }
-.skill-level[data-skill="English"] { width: 100%; }
-.skill-level[data-skill="Hindi"] { width: 50%; }
 
 /* Social Buttons */
 .social-buttons {
